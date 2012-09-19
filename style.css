@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+font-family:arial;
+}
+
+/* css for menubar*/
+div#menubar{
+margin:auto;
+width:1200px;
+height:80px;
+background-color:#666666;
+}
+div#logo{
+margin:auto;
+float:left;
+Padding-left:400px;
+}
+
+div#logo img{
+width:300px;
+height:80px;
+}
+
+div#welcome{
+padding-top:30px;
+padding-left:150px;
+width:350px;
+float:left;
+}
+
+div#loginbtn{
+padding-top:30px;
+padding-right:20px;
+float:left;
+}
+
+div#loginbtn input{
+width:100px;
+heigt:50px;
+}
+
+/*for the left side intro page*/
+div#intro{
+float:left;
+text-align:center;
+padding-top:30px;
+padding-left:20px;
+}
+
+h3#briefqns{
+font-size:30;
+}
+
+h3#briefans{
+font-size:35;
+}
+
+div#intro img{
+height:400px;
+width:500px;
+}
+
+h3#detail{
+padding-top:20px;
+font-size:40;
+}
+
+/*for the right side sign up page */
+div#form{
+float:right;
+padding-right:20px;
+padding-top:200px;
+}
+
+form#dropboxID input{
+width:400px;
+height:30px;
+}
+
+form#signup{
+padding-top:20px;
+padding-left:50px;
+}
+
+form#signup input{
+width:300px;
+height:50px;
+background-color:#985418;
+}
+
+form#dropboxlink{
+padding-top:20px;
+padding-left:50px;
+}
+
+form#dropboxlink input{
+width:300px;
+height:50px;
+background-color:#eeeeee;
+}
+
+
+
+
