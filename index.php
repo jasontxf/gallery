@@ -8,11 +8,8 @@ if (!$con)
    mysql_select_db ("gallery");  
 
 
-$stmt = "INSERT INTO account (email, password) VALUES('jasontxf@hotmail.com', 'hahahaha')";
-$query = mysql_query($stmt);
-
-$stmt = "INSERT INTO account (email, password) VALUES('haha@hotmail.com', 'hahahaha')";
-$query = mysql_query($stmt);
+// $stmt = "INSERT INTO account (email, password) VALUES('jasontxf@hotmail.com', 'hahahaha')";
+// $query = mysql_query($stmt);
 
 
 $stmt = "DELETE FROM account WHERE email = 'jasontxf@hotmail.com'";
